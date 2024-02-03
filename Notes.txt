@@ -1,0 +1,89 @@
+Programming
+- Procedural Programming
+- Object Oriented
+- Functional
+
+Just In Time Compiler
+Ahead of Time Compiler
+
+
+Java Programming
+- Open Source
+- Object Oriented (Is Java purely object oriented ?)
+- Platform Independent - WORA = Write Once Run Anywhere
+- Statically Typed
+- General Purpose
+  - Web / Software Dev / Testing / Game / 
+
+JDK - Java Development Kit
+JRE - Java Runtime Environment
+=================================
+
+First Program of Java
+- Java program always starts with a class
+
+Compile the code
+- javac FileName.java
+
+Execute the code
+- java ClassName
+
+
+Why main is public ?
+- so that JVM would be able to locate main method
+
+Why main is static ?
+- static things loads with class in Java
+
+Why main is void ?
+- because main returns nothing
+
+
+What is String []args ?
+- to handle command line arguments
+- args is an array of String type
+
+
+What is System ?
+- System is a pre-defined class in Java
+- System class is used for 3 purpose
+  - System.out	- print output
+  - System.in	- take input
+  - System.err  - print something in error format
+
+What is out ?
+- out is a member of System class
+- out is an object of PrintStream class
+
+What is println ?
+- println is a method of PrintStream class
+
+
+class PrintStream {
+   ....
+}
+class InputStream {
+   ....
+}
+
+class System {
+   PrintStream out;
+   InpuStream in;
+   PrintStream err;
+}
+
+=============================
+
+Data Types
+
+
+
+
+
+
+
+
+
+
+
+
